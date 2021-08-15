@@ -10,6 +10,7 @@ ul, li{
 }
 a{
   cursor: pointer;
+  text-decoration: none;
 }
 #header-content{
   max-width: 1200px;
@@ -81,6 +82,9 @@ a{
   width: 11%;
   padding: 12px;
 }
+.hero-button, a{
+  color: #fff;
+}
 .content-area1{
   display: flex;
   max-width: 1600px;
@@ -130,6 +134,10 @@ a{
 .sp-br{
   display: none;
 }
+.tel_direction{
+  text-decoration: underline;
+  color: #000;
+}
 /* スマホ用 */
 @media screen and (max-width: 1275px){
 *{
@@ -173,6 +181,9 @@ a{
   margin: 20px auto;
   width: 40%;
   padding: 12px;
+}
+.hero-button, a{
+  color: #fff;
 }
 .hero{
   margin-top: 100px;
