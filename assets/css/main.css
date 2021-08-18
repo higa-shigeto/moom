@@ -12,6 +12,8 @@ a{
   cursor: pointer;
   text-decoration: none;
 }
+/* PC用CSS */
+
 #header-content{
   max-width: 1200px;
   margin: auto;
@@ -53,21 +55,39 @@ a{
 }
 
 /* コンテンツ指定 */
-.content-area{
-  max-width: 1200px;
+.content-title{
   margin: auto;
-  margin-bottom: 40px;
+  background-color: #80808047;
+  overflow: hidden;
+}
+.sub-content-title{
+  margin: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.head-title{
+  position: relative;
+  left: 20%;
 }
 .content-img{
-  padding: 5px;
-  width: 300px;
+  width: 100%;
 }
 .hero{
   color: #fff;
   background-image: url(../moom/assets/image/image01.jpg);
   background-size: cover;
-  height: 400px;
+  height: 600px;
   background-position: 50% 40%;
+  overflow: hidden;
+}
+.hero-content{
+  position: relative;
+  left: 25%;
+  top: 15%;
+  font-size: 20px;
+}
+.hero-content-sp{
+  display: none;
 }
 .hero-head{
   margin-top: 50px;
@@ -79,7 +99,7 @@ a{
   background-color: #6e01ff;
   border-radius: 7px;
   margin: 20px 0 20px 0;
-  width: 11%;
+  width: 8em;
   padding: 12px;
 }
 .hero-button, a{
@@ -91,8 +111,23 @@ a{
   margin: auto;
   margin-bottom: 40px;
 }
-.main-content1{
+.main-area{
   background-color: #80808047;
+  padding-bottom: 40px;
+}
+.sub-title{
+  position: relative;
+  left: 20%;
+}
+.sub-content-area{
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+.flex-area{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 10%;
 }
 .main-content1, h1{
   padding: 20px;
@@ -110,6 +145,7 @@ a{
   max-width: 1600px;
   margin: auto;
   margin-bottom: 40px;
+  justify-content: center;
 }
 .main-content2{
   background-color: #fff;
@@ -172,6 +208,20 @@ a{
 .menu-area{
   display: none;
 }
+.hero{
+  margin-top: 85px;
+  color: #fff;
+  background-size: cover;
+  height: 600px;
+  background-position: 50% 40%;
+  overflow: unset;
+}
+.hero-content{
+  text-align: center;
+  position: static;
+  font-size: 14px;
+  padding-top: 35%;
+}
 .hero-text{
   text-align: center;
 }
@@ -185,21 +235,29 @@ a{
 .hero-button, a{
   color: #fff;
 }
-.hero{
-  margin-top: 100px;
+.head-title{
+  text-align: center;
+  position: relative;
+  left: 0;
+}
+.sub-title{
+  text-align: center;
+  position: relative;
+  left: 0;
+}
+.content-title {
+  margin: auto;
+  background-color: #80808047;
+  overflow: unset;
 }
 .content-area{
   margin: auto;
   text-align: center;
   margin-bottom: 40px;
 }
-.content-area2{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1600px;
-  margin: auto;
-  margin-bottom: 40px;
-}
+/* .main-content1, img{
+  width: 100%;
+} */
 .content-img{
   width: 100%;
 }
