@@ -12,10 +12,17 @@ a{
   cursor: pointer;
   text-decoration: none;
 }
+iframe[src^="https://docs.google.com/forms/"]{
+  width:100%;
+}
+.from-area{
+  border-top: solid 5px #80808047;
+  
+}
 #header-content{
   max-width: 1200px;
+  padding-top: 40px;
   margin: auto;
-  margin-bottom: 40px;
 }
 .header-flex{
   display: flex;
@@ -38,6 +45,7 @@ a{
   max-width: 100%;
   display: flex;
   background-color: #80808047;
+  margin-top: 40px;
 }
 .menu-content-top{
   margin-left: 7.5%;
@@ -150,8 +158,8 @@ a{
 }
 #header-content{
   width: 100%;
+  padding: 0;
   margin-bottom: 20px;
-  /* background-color: #000; */
 }
 .header-flex{
   display: block;
