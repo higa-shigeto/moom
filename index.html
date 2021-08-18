@@ -9,6 +9,12 @@
 <link rel="stylesheet" href="../../assets/css/main.css?5">
 <link rel="stylesheet" href="../../assets/css/animate.css">
 </head>
+<style>
+.fadeIn,
+.fadeOutup{
+	opacity: 0;
+}
+</style>
 <body>
 <section>
   <div class="header-flex" id="header-content">
@@ -70,19 +76,19 @@
 <div class="main-content2">
   <h1 class="content-area">カテゴリータイトル②</h1>
   <div class="content-area2">
-    <div class="content-img">
+    <div class="content-img fadeIn">
       <img src="../../assets/image/image06.jpg">
       <p>画像タイトル⑤</p>
     </div>
-    <div class="content-img">
+    <div class="content-img fadeIn">
       <img src="../../assets/image/image07.jpg">
       <p>画像タイトル⑥</p>
     </div>
-    <div class="content-img">
+    <div class="content-img fadeIn">
       <img src="../../assets/image/image08.jpg">
       <p>画像タイトル⑦</p>
     </div>
-    <div class="content-img">
+    <div class="content-img fadeIn">
       <img src="../../assets/image/image09.jpg">
       <p>画像タイトル⑧</p>
     </div>
@@ -96,5 +102,25 @@
 <div class="footer">
   <h3>@2021 product</h3>
 </div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script>
+$('.fadeIn').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animate__animated animate__fadeInUp');//クラス名が付与
+    } else {
+      $(this).removeClass('animate__animated animate__fadeInUp');//クラス名が除去
+    }
+  });
+
+//2つめの動き
+// $('.fadeOut').on('inview', function(event, isInView) {
+//     if (isInView) {//表示領域に入った時
+//       $(this).addClass('animate__animated animate__fadeInDown');//クラス名が付与
+//     } else {//表示領域から出た時
+//       $(this).removeClass('animate__animated animate__fadeInDown');//クラス名が除去
+//     }
+//   });
+</script>
 </body>
 </html>

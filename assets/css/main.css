@@ -17,7 +17,10 @@ iframe[src^="https://docs.google.com/forms/"]{
 }
 .from-area{
   border-top: solid 5px #80808047;
-  
+  margin-top: 40px;
+}
+.freebirdFormviewerViewFormContentWrapper{
+  margin-top: 40px;
 }
 #header-content{
   max-width: 1200px;
@@ -59,7 +62,17 @@ iframe[src^="https://docs.google.com/forms/"]{
   padding: 20px 10px 20px;
   letter-spacing: 0.2rem;
 }
-
+/* 共通CSS */
+.product-episode{
+  display: flex;
+}
+.content-left-img{
+  float: left;
+  margin-right:30px;
+}
+.content-right{
+  float: right;
+}
 /* コンテンツ指定 */
 .content-area{
   max-width: 1200px;
