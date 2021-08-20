@@ -116,9 +116,9 @@ iframe[src^="https://docs.google.com/forms/"]{
   background-color: #80808047;
 }
 .main-content1, h1{
-  padding: 20px;
-  margin: 0px;
-  text-align: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 .main-content1, p{
   text-align: center;
@@ -137,9 +137,9 @@ iframe[src^="https://docs.google.com/forms/"]{
   background-color: #fff;
 }
 .main-content2, h1{
-  padding: 20px;
-  margin: 0px;
-  text-align: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 .main-content2, p{
   text-align: center;
@@ -160,11 +160,91 @@ iframe[src^="https://docs.google.com/forms/"]{
   text-decoration: underline;
   color: #000;
 }
+@media screen and (min-width: 1276px){
+header {
+	display: none;
+}
+}
 /* スマホ用 */
 @media screen and (max-width: 1275px){
 *{
   margin: 0;
   padding: 0;
+}
+header {
+	background-color: #f9fafb;
+}
+header > div {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 8px;
+	text-align: right;
+}
+.fas{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.menu-btn > i {
+	display: inline-block;
+	padding: 12px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.menu-btn > i:hover {
+	background-color: #f3f4f6;
+}
+
+.nav-content {
+	background-color: white;
+	width: 80%;
+	max-width: 450px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 50;
+	padding: 8px;
+	overflow: auto;
+	transform: translateX(100%);
+	transition-duration: 300ms;
+}
+.nav-menu ul {
+	list-style: none;
+	text-align: left;
+}
+.nav-menu li > a {
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+	display: block;
+}
+.nav-menu li > a:hover {
+	background-color: #f3f4f6;
+}
+
+.nav-close {
+	display: none;
+	background-color: black;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 40;
+	transition-duration: 300ms;
+}
+
+#menu-checkbox {
+	display: none;
+}
+#menu-checkbox:checked ~ .nav-close {
+	display: block;
+	opacity: 0.5;
+}
+#menu-checkbox:checked ~ .nav-content {
+	transform: translateX(0%);
 }
 .sp-br{
   display: inline;
@@ -178,9 +258,18 @@ iframe[src^="https://docs.google.com/forms/"]{
   display: block;
   margin: 0px;
 }
-.header-top{
-  text-align: center;
+.sp_menu{
+  position: absolute;
+  background-image: url(../moom/image/facebook-logo.png);
+}
+.header-left{
   margin-bottom: 20px;
+  background-color: red;
+}
+.header-top{
+  /* text-align: center; */
+  padding: 0;
+  display: none;
 }
 .header-text{
   display: none;
