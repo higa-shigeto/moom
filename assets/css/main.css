@@ -183,8 +183,9 @@ iframe[src^="https://docs.google.com/forms/"]{
   margin-bottom: 20px;
 }
 .header-text{
-  text-align: center;
-  margin-bottom: 20px;
+  display: none;
+  /* text-align: center;
+  margin-bottom: 20px; */
 }
 .sns-link{
   text-align: center;
