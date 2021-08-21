@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "hikamoritonoMBP",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/VUCSfsm6CpPOETvyGGetgliBHq3ojOk48dXujbqI8noT8MhRM2",
+  "gitHubUrl": "https://github.com/higa-shigeto/moom",
+  "workFolder": "_work"
+}
