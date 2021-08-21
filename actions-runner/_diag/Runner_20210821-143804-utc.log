@@ -121,3 +121,38 @@ Date: Sat, 21 Aug 2021 14:38:06 GMT
 [2021-08-21 14:38:09Z INFO MessageListener] Session created.
 [2021-08-21 14:38:09Z INFO Terminal] WRITE LINE: 2021-08-21 14:38:09Z: Listening for Jobs
 [2021-08-21 14:38:09Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-08-21 15:08:38Z INFO MessageListener] No message retrieved from session 'f88ee524-f763-48ca-a303-c632cdfbbc80' within last 30 minutes.
+[2021-08-21 15:33:55Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 3bbe1b8c-9058-4178-84b4-6da3610068f1
+ActivityId: 4f43c191-5a0c-49d1-8690-05df3b93e0af
+X-TFS-Session: c6d7c349-d673-4ddc-b97c-02e9ca1fe1d3
+X-VSS-E2EID: 157d68c0-5914-47e0-9506-18b2d06bcc84
+X-VSS-SenderDeploymentId: 1139089e-89fd-ce7a-6851-1ac6328a300e
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 48767B924FD3454CAC14320AB7E6F3CB Ref B: OSA30EDGE0515 Ref C: 2021-08-21T15:33:55Z
+Date: Sat, 21 Aug 2021 15:33:55 GMT
+
+[2021-08-21 15:33:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/higa-shigeto/moom/actions-runner/.credentials_rsaparams
+[2021-08-21 15:33:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-08-21 15:38:59Z INFO MessageListener] No message retrieved from session 'f88ee524-f763-48ca-a303-c632cdfbbc80' within last 30 minutes.
+[2021-08-21 16:09:27Z INFO MessageListener] No message retrieved from session 'f88ee524-f763-48ca-a303-c632cdfbbc80' within last 30 minutes.
+[2021-08-21 16:29:43Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 3bbe1b8c-9058-4178-84b4-6da3610068f1
+ActivityId: 4f3d1101-5a0c-49d1-8690-05df3b93e0af
+X-TFS-Session: c6d7c349-d673-4ddc-b97c-02e9ca1fe1d3
+X-VSS-E2EID: a7ff233e-830d-43ab-acc2-c7d3fbf5d5c1
+X-VSS-SenderDeploymentId: 1139089e-89fd-ce7a-6851-1ac6328a300e
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 6661468A1DE747CAA7E91503E136FFCF Ref B: OSA30EDGE0515 Ref C: 2021-08-21T16:29:43Z
+Date: Sat, 21 Aug 2021 16:29:42 GMT
+
+[2021-08-21 16:29:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/higa-shigeto/moom/actions-runner/.credentials_rsaparams
+[2021-08-21 16:29:44Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
