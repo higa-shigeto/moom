@@ -3,20 +3,20 @@
 <head>
 <title>
 </title>
-<meta http-equiv="refresh" content="0;/web">
+<!-- <meta http-equiv="refresh" content="0;/web"> -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../../assets/css/main.css?10">
 <link rel="stylesheet" href="../../assets/css/animate.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
 </head>
-<!-- <style>
+<style>
 .fadeIn,
 .fadeOutup{
 	opacity: 0;
 }
-</style> -->
-<!-- <body>
+</style>
+<body>
 	<header>
 	<div>
 		<h1>ページタイトル</h1>
@@ -146,14 +146,14 @@ $('.fadeIn').on('inview', function(event, isInView) {
     }
   });
 
-//2つめの動き
-// $('.fadeOut').on('inview', function(event, isInView) {
-//     if (isInView) {//表示領域に入った時
-//       $(this).addClass('animate__animated animate__fadeInDown');//クラス名が付与
-//     } else {//表示領域から出た時
-//       $(this).removeClass('animate__animated animate__fadeInDown');//クラス名が除去
-//     }
-//   });
+// 2つめの動き
+$('.fadeOut').on('inview', function(event, isInView) {
+    if (isInView) {//表示領域に入った時
+      $(this).addClass('animate__animated animate__fadeInDown');//クラス名が付与
+    } else {//表示領域から出た時
+      $(this).removeClass('animate__animated animate__fadeInDown');//クラス名が除去
+    }
+  });
 </script>
-</body> -->
+</body>
 </html>
