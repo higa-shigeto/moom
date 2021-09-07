@@ -1,4 +1,4 @@
-body{
+body, a{
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,11 @@ h2{
 }
 p{
   margin: 0;
+}
+a{
+  text-decoration: underline;
+  color: #666;
+  text-decoration-color: rgb(239 101 186 / 78%);;
 }
 img{
   width: 100%;
@@ -58,7 +63,7 @@ ul{
 .sakura__petal{
   position: absolute;
   background-color: #ffc0cb;
-  border-radius: 70% 0 70% 0;
+  border-radius: 150% 0 150% 0;
   animation: animate-petal 17s linear;
   height: 100vh
 }
@@ -126,12 +131,14 @@ ul{
 .sns__item{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0px 40px 40px 40px;
 }
 .sns__img{
   width: 100px;
-  margin-left: 40px;
+}
+.link{
+  cursor: pointer;
 }
 .pc__img{
   display: block;
@@ -168,8 +175,7 @@ h2{
 .sns__item{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 0px 50px 40px 10px;
+  justify-content: space-around;
 }
 .sns__top__title {
   margin: 10px auto;
@@ -178,7 +184,6 @@ h2{
 }
 .sns__img {
   width: 100px;
-  margin-left: 40px;
   margin-bottom: 15px;
 }
 .pc__img{
