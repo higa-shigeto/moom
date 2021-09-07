@@ -4,16 +4,27 @@ body{
 }
 section{
   overflow: hidden;
+  font-family: serif;
 }
 h2{
   border-left: solid 3px #2d375a;
   padding-left: 25px;
+}
+p{
+  margin: 0;
 }
 img{
   width: 100%;
 }
 ul{
   list-style: none;
+}
+.pageTitle{
+  text-align: center;
+}
+.sub_title{
+  font-family: serif;
+  color: #000000e8;
 }
 .fastView{
   display: flex;
@@ -42,6 +53,9 @@ ul{
 }
 .int__img{
   float: left;
+}
+.int__contents{
+  margin: 10px;
 }
 .int__item{
   display: flex;
@@ -105,9 +119,6 @@ h2{
 }
 .int__img{
   float: none;
-}
-.int__target{
-  padding: 20px;
 }
 .list__item{
   display: flex;
