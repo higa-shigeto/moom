@@ -65,7 +65,7 @@ ul{
   background-color: rgb(239 101 186 / 55%);
   border-radius: 150% 0 150% 0;
   animation: animate-petal 30s linear;
-  height: 100vh;
+  height: 300vh;
 }
 .sakura__petal::after{
   content: "";
