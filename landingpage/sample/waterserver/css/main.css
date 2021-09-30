@@ -28,7 +28,7 @@ table th{
 }
 table td{
   text-align: center;
-  background-color: rgb(255 255 255)
+  background-color: rgb(255 255 255);
   border-left: 1px solid #a8b7c5;
   border-bottom: 1px solid #a8b7c5;
   border-top: none;
