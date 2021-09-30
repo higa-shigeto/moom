@@ -1,0 +1,226 @@
+body, section, div, img, h1, h2, h3, a, span{
+  margin: 0;
+}
+h1, h2, h3, h4, p, span{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+table{
+  width: 100%;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+table th:last-child{
+  border-radius: 0 5px 0 0;
+  border-right: 1px solid #3c6690;
+}
+table th{
+  text-align: center;
+  color:white;
+  background: linear-gradient(#829ebc,#225588);
+  border-left: 1px solid #3c6690;
+  border-top: 1px solid #3c6690;
+  border-bottom: 1px solid #3c6690;
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+  padding: 10px 0;
+}
+table td{
+  text-align: center;
+  border-left: 1px solid #a8b7c5;
+  border-bottom: 1px solid #a8b7c5;
+  border-top:none;
+  box-shadow: 0px -3px 5px 1px #eee inset;
+  padding: 10px 0;
+}
+table td:last-child{
+  border-right: 1px solid #a8b7c5;
+}
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+a{
+  cursor: pointer;
+  color: #000;
+  text-decoration-color: rgb(168, 211, 255, 1);
+}
+img{
+  width: 100%;
+}
+#product_explanation{
+  width: 80%;
+  text-align: center;
+  background-color: rgb(60 245 74 / 88%);
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 0px 30px 0px 30px;
+}
+#product_list{
+  width: 80%;
+  text-align: center;
+  background-color: rgb(60 245 74 / 88%);
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 30px 0px 30px 0px;
+}
+.warter__bk{
+  background-image: url("../../../../assets/image/LP/water/water.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pc__contents{
+  width: 80%;
+  margin: 0 auto;
+}
+.pc__flex{
+  display: flex;
+}
+.pc__flex__wrap{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgb(30 148 254 / 57%);
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.pc__block{
+  display: block;
+}
+.pc__left__area{
+  float: left;
+  display: grid;
+}
+.pc__right__area{
+  float: right;
+}
+.warter__img{
+  height: 100vh;
+  overflow: hidden;
+}
+.contents__target{
+  background-color: #fff;
+  width: 29%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-wrap: break-all;
+}
+.title__target{
+  position: absolute;
+}
+.title__head{
+  position: relative;
+  left: 5px;
+  font-size: 20px;
+  /* margin-block-end: -10px; */
+}
+.text__target{
+  position: relative;
+  top: -10px;
+  margin-block-end: 0px;
+}
+.table__area{
+  width: 80%;
+  margin: 10px auto;
+}
+.water__footer{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+.footer{
+  background-color: rgb(109, 144, 180, 1);
+}
+.footer__text{
+  margin: 0;
+}
+.sp__br{
+  display: none;
+}
+/* end pc area css */
+
+/* starts sp area css */
+@media screen and (max-width: 865px){
+.sp__contents{
+  width: 100vw;
+}
+.campaign__img{
+  width: 100%
+}
+.sp__block{
+  display: block;
+  padding: 1px;
+}
+.contents__target{
+  background-color: #fff;
+  width: 96%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-wrap: break-all;
+}
+.water__footer{
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.footer__text{
+  margin-left: 20px;
+}
+.sp__links{
+  margin: 20px;
+}
+.sp__br{
+  display: block;
+}
+}
+@media screen and (max-width: 430px){
+.sp__contents{
+  width: 100vw;
+}
+.campaign__img{
+  width: 100%
+}
+.sp__block{
+  display: block;
+  padding: 1px;
+}
+.contents__target{
+  background-color: #fff;
+  width: 94%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  overflow-wrap: break-all;
+}
+.water__footer{
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.footer__text{
+  margin-left: 20px;
+}
+.sp__links{
+  margin: 20px;
+}
+.sp__br{
+  display: block;
+}
+}
+@media screen and (max-width: 318px){
+.contents__target{
+  padding: 3px;
+}
+}
