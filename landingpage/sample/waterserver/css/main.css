@@ -144,10 +144,22 @@ img{
 .sp__br{
   display: none;
 }
+.pc__img{
+  display: block;
+}
+.sp__img{
+  display: none;
+}
 /* end pc area css */
 
 /* starts sp area css */
 @media screen and (max-width: 865px){
+.pc__img{
+  display: none;
+}
+.sp__img{
+  display: block;
+}
 .sp__contents{
   width: 100vw;
 }
