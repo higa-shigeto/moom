@@ -1,4 +1,7 @@
+<ifModule mod_rewrite.c>
 RewriteBase /
+</ifModule>
+
 DirectoryIndex index.html
 AddType application/.html
 ErrorDocument 404/404.html
