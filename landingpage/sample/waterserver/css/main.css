@@ -1,8 +1,12 @@
-body, section, div, img, h1, h2, h3, a, span{
+body, section, div, img, h1, h2, h3, a, p, span{
   margin: 0;
+  padding: 0;
 }
-h1, h2, h3, h4, p, span{
+h1, h2, h3, h4, p, ul, span{
   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+span{
+  color: #000;
 }
 table{
   width: 100%;
@@ -47,7 +51,8 @@ table tr:last-child td:last-child {
 a{
   cursor: pointer;
   color: #000;
-  text-decoration-color: rgb(168, 211, 255, 1);
+  text-decoration-color: #fff;
+  /* text-decoration-color: rgb(168, 211, 255, 1); */
 }
 img{
   width: 100%;
@@ -167,6 +172,32 @@ img{
   position: relative;
   right: -45px;
   top: 10px;
+}
+.delivery__zone{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-inline-start: 0;
+}
+.list__box{
+  border-left: #2b6093 solid 5px;
+  border-right: #2b6093 solid 5px;
+  border-radius: 4.5px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+.side__area{
+  margin: 0 auto;
+  width: 50%;
+}
+.links__inc{
+  color: #fff;
+  background-color: rgb(30 148 254 / 57%);
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 20px;
 }
 /* end pc area css */
 
