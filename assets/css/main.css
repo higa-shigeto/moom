@@ -149,7 +149,6 @@ iframe[src^="https://docs.google.com/forms/"]{
 }
 .footer{
   padding: 40px;
-  height: 40px;
   background-color: #000;
   color: #fff;
 }
@@ -157,8 +156,9 @@ iframe[src^="https://docs.google.com/forms/"]{
   display: none;
 }
 .tel_direction{
+  text-align: right;
   text-decoration: underline;
-  color: #000;
+  color: #fff;
 }
 @media screen and (min-width: 1276px){
 header {
@@ -314,5 +314,10 @@ header > div {
 }
 .content-img{
   width: 100%;
+}
+.tel_direction{
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
 }
 }
