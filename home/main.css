@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div{
+    overflow-x: auto;
+}
+section{
+  width: 90%;
+  margin: 0 auto;
+}
+iframe{
+    margin: 10px auto;
+}
+a{
+ color: blue;   
+}
